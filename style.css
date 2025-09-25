@@ -1,11 +1,15 @@
 
 body { 
+    display: flex;
 flex-direction: column;
 };
 
 main{
+    display: flex;
     flex-direction: row;
     flex: auto;
+    height: auto;
+    width: auto;
 }
 article {
     flex: 2;
