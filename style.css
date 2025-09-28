@@ -19,3 +19,21 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    padding: 1rem;
+
+}
+
+nav *{
+    color: #fff;
+}
+nav img{
+    margin-left: auto;
+    height: 40px;
+   
+}
