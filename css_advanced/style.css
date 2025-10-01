@@ -1,39 +1,43 @@
+header{
+    
+    justify-content: space-between;
+    width: 1103.41px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 1px;
+    box-sizing: border-box;
+    background-color: transparent;
+   
+   
+}
 
-body { 
+nav{
     display: flex;
-flex-direction: column;
-};
+    justify-content: space-between;
+    border: solid gray 1px;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    width: 234;
+    height: 15;
+    top: 37px;
+    left: 1041px;
+    opacity: 1;
+
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}   
+
 
 main{
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    height: auto;
-    width: auto;
-}
-article {
-    flex: 2;
-    overflow-y: auto;
-}
-aside {
-    flex: 1;
-    overflow-y: auto;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    background-color: rgb(66, 66, 66);
-    color: #fff;
-    padding: 1rem;
-
-}
-
-nav *{
-    color: #fff;
-}
-nav img{
-    margin-left: auto;
-    height: 40px;
-   
+    background-image: url(./images/13.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    
 }
