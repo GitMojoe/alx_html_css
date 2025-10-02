@@ -88,7 +88,6 @@ div.topic-text{
 .tutorials{
 width: 100%;
 opacity: 1;
-
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -98,10 +97,58 @@ align-items: center;
 
 .tutorials_flex{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
+    padding: 0px;
+    margin:0px
+    
+    
 }
+#tutorials_img1 {
+    width: 100px;
+    height: 100px;
+}
+#tutorials_img2 {
+    width: 100px;
+    height: 100px;
+}
+#tutorials_img3 {
+    width: 100px;
+    height: 100px;
+}
+#tutorials_img4 {
+    width: 100px;
+    height: 100px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-top: 10px;
+}
+.reviewer_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.stars{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars-and-time {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
+
 main{
     display: block;
 }
