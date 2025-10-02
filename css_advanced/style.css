@@ -1,7 +1,6 @@
-body {
-    width: 100%;
-    background: transparent !important;
-}
+
+
+
 
 header{
     
@@ -11,7 +10,7 @@ header{
     top: 35.02px;
     left: 1px;
     box-sizing: border-box;
-    background-color: transparent;
+    background-color: burlywood;
    
    
 }
@@ -38,8 +37,12 @@ li a{
     width: 60px;
     height: 60px;
     background-color: transparent;
-}   
+}  
 
+body {
+    width: 100%;
+    background: transparent !important;
+}
 
 .bgimg_1{
     background-color: burlywood;
@@ -66,16 +69,38 @@ div.topic-text{
 .testimonials{
     background: #C271FF;
     height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
 
+.testimonial_quote.clear-flex{
+    display:block;
+    margin-left: 50px;
+    justify-content: left;
+    
+}
+.testimonial_quote>blockquote>h3>p{
+    text-align: left;
 }
 
 .tutorials{
 width: 100%;
-height: 450px;
 opacity: 1;
-top: 1572px;
-left: 106px;
 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.tutorials_flex{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
 }
 main{
     display: block;
@@ -89,4 +114,26 @@ line-height: 100%;
 letter-spacing: 0px;
 text-align: center;
 
+}
+
+.learn-from-pros{
+    text-align: center;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.profiles img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#kfc_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
