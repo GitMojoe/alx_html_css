@@ -204,7 +204,7 @@ align-items: center;
 .tutorials>h2{
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    padding: 50px;
 }
 
 
@@ -214,6 +214,7 @@ align-items: center;
     justify-content: center;
     text-align: center;
     margin: 5px;
+   
 }
 
 .tutorials_flex{
@@ -223,6 +224,7 @@ align-items: center;
     padding: 0px;
     margin: 10px;
     text-align: center;
+    
     
 }
 #tutorials_img1 {
@@ -254,6 +256,30 @@ align-items: center;
     margin-right: auto;
 }
 
+section.tutorials{
+
+margin-bottom: 100px;
+}
+
+.stars-and-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.stars{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .rating{
     display: flex;
     flex-direction: row;
@@ -268,19 +294,8 @@ align-items: center;
     border-radius: 50%;
     margin-right: 10px;
 }
-.stars{
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-    align-items: center;
-}
 
-.stars-and-time {
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    
-}
+
 
 main{
     display: block;
@@ -297,6 +312,7 @@ text-align: center;
 }
 .membership{
     display: block;
+    background-color: #34656D;
 }
 
 .membership>h2{
