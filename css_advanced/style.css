@@ -33,7 +33,7 @@ li a{
     color:white;
 }
   
-#logo{
+.logo{
     width: 60px;
     height: 60px;
     background-color: transparent;
@@ -61,7 +61,33 @@ div.topic-text{
     margin-left: auto;
     margin-right: auto;
 }
+#register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.faq{
+    display: block;
+}
+.faqcol{
+    display: block;
+}
+.faqrow1{
+    display: flex;
+}
+.faqrow2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.faqrow1col{
+display: block;
+}
 .topic{
     height: 1093px;
 }
@@ -162,6 +188,26 @@ letter-spacing: 0px;
 text-align: center;
 
 }
+.membership{
+    display: block;
+}
+
+.membership>h2{
+    text-align: center;
+}
+
+.membership_block{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#register{
+    text-align: center;
+    ;
+
+}
 
 .learn-from-pros{
     text-align: center;
@@ -183,4 +229,16 @@ text-align: center;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.footer_section{
+    display: block;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>section>p{
+    text-align: center;
 }
