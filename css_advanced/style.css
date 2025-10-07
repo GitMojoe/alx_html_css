@@ -189,10 +189,6 @@ display: block;
     height: 1093px;
 }
 
-
-
-
-
 .tutorials{
 display: block;
 flex-direction: column;
@@ -206,7 +202,6 @@ align-items: center;
     margin-top: 100px;
     padding: 50px;
 }
-
 
 .tutorials-row{
     display: flex;
@@ -257,7 +252,6 @@ align-items: center;
 }
 
 section.tutorials{
-
 margin-bottom: 100px;
 }
 
@@ -278,8 +272,6 @@ margin-bottom: 100px;
     align-items: center;
 }
 
-
-
 .rating{
     display: flex;
     flex-direction: row;
@@ -295,8 +287,6 @@ margin-bottom: 100px;
     margin-right: 10px;
 }
 
-
-
 main{
     display: block;
 }
@@ -311,12 +301,15 @@ text-align: center;
 
 }
 .membership{
+    height: 502px;
+    padding-top: 200px;
     display: block;
     background-color: #34656D;
 }
 
 .membership>h2{
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .membership_block{
@@ -326,15 +319,45 @@ text-align: center;
     margin: 20px;
 }
 
-#register{
-    text-align: center;
-    ;
-
+.membership button{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+}
+.membership img{
+    width: 50px;
 }
 
+.faq h2{
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
 
+.faq h3{
+    margin-bottom: 10px;
+}
 
-.footer>section{}
-    
-.footer_sectinon{}
- 
+#register{
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    height: 249px;
+    width: 100%;
+    background-color: #071629;
+    color: white;
+}
+
+.footer-row{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
