@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+header{
+    background-image: url('./images/headphones_hero_1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; 
+    padding-top: 2rem;
+    
+}
+#nav-section ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    gap: 5px;
+    
+}
+
+#nav-section ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+
+.content1{
+    width: 100%;
+    max-width: 1000px;        /* Set your desired max width */
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+.text{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.call-to-action{
+    background-color: #FF6565;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    animation: pulseGlow 2s infinite;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+  
+  
+  
+
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 0, 100, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(255, 0, 100, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 0, 100, 0.6);
+  }
+}
+
+.call-to-action2{
+    margin-top: 30px;
+    background-color: #FF6565;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+a:hover, a:active{
+    background-color: #FF6565;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#whatweDo{
+    
+    padding-top: 100px;
+    width: 100%;
+    max-width: 1000px;        /* Set your desired max width */
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.whatweDo1{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 100px;
+    max-width: 600px;
+    align-items: center;
+    position: inherit;
+}
+
+.whatweDo2{
+    display: flex;
+    flex-direction: row;
+}
+#whatweDo img{
+    width: 100px;
+}
+@keyframes flipIn {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.feature-card {
+  animation: flipIn 0.6s ease-out forwards;
+  transform-origin: left;
+
+}
+#ourResults{
+    background-image: url('./images/headphones_hero_2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#ourResults-text {
+    max-width: 1000px;
+    color: white;
+}
+#ourResults-text h2{
+    margin-top: 100px;
+}
+#ourResults-text p{
+    margin-top: 50px;
+}
+#ourResults-shapes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: none;
+  gap: 50px;
+}
+
+.ourResults-div{
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background-color: #FF6565;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0.8;
+  
+}
+
+.ourResults-div:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.inside-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 0 auto;
+  text-align: center;
+  box-sizing: content-box;
+    padding: 10px;
+}
+.inside-text h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  
+}   
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px
+    
+
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items:center;
+    justify-content: space-between;
+}
+.contact-items{
+    width: auto;
+    margin: 10px;
+    height: 20px;
+    border-bottom: solid 1px gray;
+    background: none;
+    color: black;
+    padding-left: 5px;
+}
+
+#contact button{
+    margin-top: 30px;
+}
+
+#footer{
+
+   height: 200px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #031a39;
+    color: white;
+}
+
+
+#footer-row{
+    margin-top: 30px;
+   display: flex;
+    flex-direction: row;
+    align-items: center;      
+    justify-content: space-around;  
+      
+}
+footer img{
+    width: 100px;
+}
+footer p{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 480px){
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-size: cover;
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+    box-shadow: none;
+    opacity: 0.8;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+    .content1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 100%;
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .whatweDo2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #whatweDo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ourResults-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #ourResults-text h2{
+        font-size: 20px;
+        margin: 0px;
+        padding: 5px;
+        max-width: 250px;
+    } 
+    
+    #ourResults-text p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    #ourResults-shapes{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+    .ourResults-div{
+        width: 120px;
+        height: 120px;
+    }
+    .inside-text h2 {
+        font-size: 24px;
+        margin-top: 35px;
+        
+    }   
+    #footer-row{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* medium screens */
+
+@media screen and (min-width: 481px) and (max-width: 961px){
+    *{
+        padding: 0px;
+        border: 0px;
+        box-sizing: border-box;
+        }
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-size: cover;
+
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 0 auto;
+    }
+    .nav-links {
+    display: none;
+    
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+.feature-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .feature-card {
+    width: calc(50% - 10px); /* two cards per row with spacing */
+    margin-bottom: 20px;
+  }
+.ourResults-div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .ourResults-div {
+    width: calc(50% - 10px); /* two cards per row with spacing */
+    margin-bottom: 20px;
+  }
+  
+
+    .content1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 100%;
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .whatweDo2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #whatweDo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ourResults-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #ourResults-text h2{
+        font-size: 20px;
+        margin: 0px;
+        padding: 5px;
+        max-width: 250px;
+    } 
+    
+    #ourResults-text p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    #ourResults-shapes{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+    .ourResults-div{
+        width: 120px;
+        height: 120px;
+    }
+    .inside-text h2 {
+        font-size: 24px;
+        margin-top: 35px;
+        
+    }   
+    #footer-row{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 962px){
+    *{
+        padding: 0px;
+        border: 0px;
+        box-sizing: border-box;
+        }
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-size: cover;
+
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav-section ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 0 auto;
+    }
+    .nav-links {
+    display: flex;
+    
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+    .content1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 100%;
+        max-width: 600px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+.whatweDo2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.feature-card-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .feature-card {
+    
+    margin-bottom: 20px;
+  }
+}
+#ourResults-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourResults-div-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .ourResults-div {
+    
+    margin-bottom: 20px;
+  }
